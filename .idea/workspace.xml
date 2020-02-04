@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c37039b-1654-4c7e-84b6-9fb5b9d23f2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/burger-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logo/Logo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logo/Logo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,11 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -76,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580471510134</updated>
-      <workItem from="1580471511662" duration="20917000" />
+      <workItem from="1580471511662" duration="22378000" />
     </task>
     <task id="LOCAL-00001" summary="burger building controls&#10;burger buiilding ui">
       <created>1580733516715</created>
@@ -106,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580796095616</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finished modal implementation">
+      <created>1580801377421</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580801377421</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,17 +132,18 @@
     <MESSAGE value="burger builder order button enable, disable logic implementation" />
     <MESSAGE value="preparation for modal implementation" />
     <MESSAGE value="backdrop implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="backdrop implementation" />
+    <MESSAGE value="finished modal implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished modal implementation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="536" y="273" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580796743806">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="536" y="273" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1440.900@0.0.1440.900" timestamp="1580796743806" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1580796095156">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1580804212816">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580796095156" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580804212816" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1580733347291">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -200,9 +216,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="271" y="153" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580797287968" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1580796115046">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1580804174163">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580796115046" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580804174163" />
   </component>
 </project>

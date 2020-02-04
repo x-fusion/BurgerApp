@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c37039b-1654-4c7e-84b6-9fb5b9d23f2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/SideDrawer/SideDrawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/SideDrawer/SideDrawer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Toolbar/Toolbar.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580471510134</updated>
-      <workItem from="1580471511662" duration="25854000" />
+      <workItem from="1580471511662" duration="28653000" />
     </task>
     <task id="LOCAL-00001" summary="burger building controls&#10;burger buiilding ui">
       <created>1580733516715</created>
@@ -126,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580804235673</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="base navigation implementation in toolbar">
+      <created>1580819246667</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580819246667</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,33 +150,34 @@
     <MESSAGE value="backdrop implementation" />
     <MESSAGE value="finished modal implementation" />
     <MESSAGE value="Layout update:&#10;implemented navigation bar and logo base" />
-    <option name="LAST_COMMIT_MESSAGE" value="Layout update:&#10;implemented navigation bar and logo base" />
+    <MESSAGE value="base navigation implementation in toolbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="base navigation implementation in toolbar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="536" y="273" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580796743806">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="536" y="273" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1440.900@0.0.1440.900" timestamp="1580796743806" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1580804235223">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1580824081830">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580804235223" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1580818186749">
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580824081830" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1580822255478">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580818186749" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1580818186746">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580822255478" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1580822255475">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580818186746" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1580818186744">
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580822255475" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1580822255474">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580818186744" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1580818186748">
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580822255474" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1580822255476">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580818186748" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580822255476" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1580719260601">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

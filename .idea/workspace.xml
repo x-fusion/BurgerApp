@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c37039b-1654-4c7e-84b6-9fb5b9d23f2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -77,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580471510134</updated>
-      <workItem from="1580471511662" duration="17149000" />
+      <workItem from="1580471511662" duration="18715000" />
     </task>
     <task id="LOCAL-00001" summary="burger building controls&#10;burger buiilding ui">
       <created>1580733516715</created>
@@ -93,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580734819404</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="preparation for modal implementation">
+      <created>1580737525166</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580737525166</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,13 +109,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="burger building controls&#10;burger buiilding ui" />
     <MESSAGE value="burger builder order button enable, disable logic implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="burger builder order button enable, disable logic implementation" />
+    <MESSAGE value="preparation for modal implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="preparation for modal implementation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1580734819029">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1580796068950">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580734819029" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580796068950" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1580733347291">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -177,9 +185,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="520" y="168" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1580736592067" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1580734836786">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1580796087300">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580734836786" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580796087300" />
   </component>
 </project>
